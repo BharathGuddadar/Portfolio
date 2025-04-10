@@ -1,0 +1,60 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+  }
+  
+.home {
+    color: white;          /* Make the text white */    
+    position: relative;    /* Make sure it appears above the background */
+    z-index: 1;            /* Ensure it appears above the background */
+    text-align: center;
+    margin-top: 7vh;      /* Add some margin from the top */
+}
+.container{
+    background: linear-gradient(135deg, #0f0f0f, #1a1a2e, #16213e, #0f3460);
+  background-attachment: fixed;
+  color: white; /* Ensures text is visible */
+}
+@media (min-width: 720px) {         /*  for desktop screen */
+
+    .container{
+        display: flex;
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+    .greet{
+        margin: 100px 150px;
+    }
+    .greet h3{
+        font-size: 85px;
+    }
+    .avatar img{
+        height: 500px;
+        width: 500px;
+        border-radius: 20px;
+    }
+}
+@media (max-width: 480px) {         /*For mobile*/
+    .home{
+        margin-top: 4vh; 
+    }
+    .avatarcan{
+        width: 200px;
+        height: 400px;
+    }
+    .greet h3{
+        font-size: 45px;
+    }
+    .avatar img{
+        height: 250px;
+        width: 250px;
+        border-radius: 20px;
+    }
+    .container{
+        padding: 160px 0px;
+        margin-bottom: 50px;
+    }
+    .greet{
+        margin: 0px 0px 40px 0px;
+    }
+}

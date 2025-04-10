@@ -1,0 +1,13 @@
+.ball-container{
+    width: 100px;
+  height: 100px;
+  display: flex;
+  margin: 25px;
+}
+
+@media (min-width: 720px) {
+  .ball-container{
+    width: 130px;
+    height: 130px;
+  }
+}

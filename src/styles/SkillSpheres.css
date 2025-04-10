@@ -1,0 +1,44 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    justify-content: center; /* Center the row of spheres horizontally */
+    align-items: center; /* Center the row of spheres vertically */
+    height: 100%; /* Full viewport height */
+    width: 100%;
+  
+  }
+  .skill-head{
+    font-size: 3rem;
+  }
+  .spheres {
+    display: flex;
+    gap: 20px; /* Space between the spheres */
+    flex-wrap: wrap; /* Ensure all spheres stay in a single row */
+  }
+  .skill-p{
+    font-size: 15px;
+    color: #d7d4ff;
+    border: 2px solid #c282f9ee;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 15px #c282f9ee;
+  }
+
+  @media (min-width: 720px) {
+    .skills{
+      padding: 0px 300px;
+
+    }
+    .skill-head{
+      margin:100px 0px 30px ;
+    }
+    .skill-p{
+      margin-left: 550px;
+      max-width: 600px;
+      font-size: 25px;
+      line-height: 30px;
+      text-align: center;
+    }
+  }
