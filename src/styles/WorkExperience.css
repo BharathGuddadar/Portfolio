@@ -104,4 +104,9 @@
       }
     
   }
+  @media (max-width: 480px) {         /*For mobile*/
   
+    .work-experience{
+      background-color: black;
+    }
+  }

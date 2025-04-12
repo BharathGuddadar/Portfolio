@@ -15,7 +15,7 @@ const SkillSphere = () => {
         <div className="shperes"><BallCanvas icon={'./python.png'} /></div>
         <div className="shperes"><BallCanvas icon={'./react.png'} /></div>
         <div className="shperes"><BallCanvas icon={'./node.png'} /></div>
-        <div className="shperes"><BallCanvas icon={'./figma.png'} /></div>
+
         <div className="shperes"><BallCanvas icon={'./canva.jpeg'} /></div>
         <div className="shperes"><BallCanvas icon={'./express.png'} /></div>
 
