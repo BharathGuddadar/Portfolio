@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Home.css'
 import { Typewriter } from "react-simple-typewriter";
-import ThreeDAvatar from './ThreeDAvatar';
+// import ThreeDAvatar from './ThreeDAvatar';
 
 const Home = () => {
   return (

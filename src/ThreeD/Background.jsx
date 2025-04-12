@@ -13,15 +13,18 @@ const Particles = () => {
     }
   });
 
-  // Generate random positions for particles
+  // Mobile check
+  const isMobile = window.innerWidth < 768;
+  const particleCount = isMobile ? 2000 : 5000;
+
+  // Generate particles using `particleCount`
   const particles = useMemo(() => {
-    const positions = new Float32Array(700000); // More particles
-    for (let i = 0; i < 7000; i++) {
-      positions[i] = (Math.random() - 0.5) * 15; // Spread out in space
+    const positions = new Float32Array(particleCount * 3); // Each point has x, y, z
+    for (let i = 0; i < particleCount * 3; i++) {
+      positions[i] = (Math.random() - 0.5) * 15;
     }
     return positions;
-  }, []);
-
+  }, [particleCount]);
   return (
     <Points ref={pointsRef} positions={particles} frustumCulled={false}>
       <PointMaterial color="white" size={0.02} transparent opacity={0.7} depthWrite={false} />
