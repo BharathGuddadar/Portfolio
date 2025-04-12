@@ -5,7 +5,12 @@
     justify-content: center;
     margin: 10px;
 }
-
+.head-about{
+    font-size: 2.5em;
+    margin-top: 40px;
+    text-align: center;
+    color: #fff;
+  }
 .about-p{
     font-size: small;
     color: #d7d4ff;
@@ -35,7 +40,7 @@
         background-color: black;
     }
     .about-p{
-        margin: 20px;
+        margin: 20px 20px 0px 20px;
         font-size: 15px;
     }
 }

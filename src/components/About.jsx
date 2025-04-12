@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className='about-container' id='about'>
         <div className="about">
-        <h3>Overview.</h3>
+        <h3 className='head-about'>Overview.</h3>
         <p> <a href="./logo.png" download class="button btn" style={{textDecoration:"none", fontSize:"25px", color:"deepskyblue"}}>Download Resume⬇️</a></p>
         </div>
       
