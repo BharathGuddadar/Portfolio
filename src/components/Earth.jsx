@@ -11,7 +11,7 @@ const RotatingEarth = () => {
   // Rotate the earth
   useFrame(() => {
     if (earthRef.current) {
-      earthRef.current.rotation.y += 0.05;
+      earthRef.current.rotation.y += 0.02;
     }
   });
 

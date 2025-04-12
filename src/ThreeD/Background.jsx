@@ -19,7 +19,7 @@ const Particles = () => {
 
   // Generate particles using `particleCount`
   const particles = useMemo(() => {
-    const positions = new Float32Array(particleCount * 3); // Each point has x, y, z
+    const positions = new Float32Array(particleCount * 2); // Each point has x, y, z
     for (let i = 0; i < particleCount * 3; i++) {
       positions[i] = (Math.random() - 0.5) * 15;
     }
