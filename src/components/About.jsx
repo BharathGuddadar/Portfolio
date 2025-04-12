@@ -6,7 +6,7 @@ const About = () => {
     <div className='about-container' id='about'>
         <div className="about">
         <h3>Overview.</h3>
-        <p> <a href="./logo.png" download class="button btn" style={{textDecoration:"none", fontSize:"20px", color:"lightblue"}}>Download Resume⬇️</a></p>
+        <p> <a href="./logo.png" download class="button btn" style={{textDecoration:"none", fontSize:"25px", color:"deepskyblue"}}>Download Resume⬇️</a></p>
         </div>
       
       <p className='about-p' >Driven by curiosity and a passion for technology, I love turning ideas into reality through code. With a strong foundation in frontend and backend development, I aim to create impactful, user-friendly experiences. My journey has been a blend of exploration, problem-solving, and continuous learning.

@@ -42,3 +42,9 @@
       text-align: center;
     }
   }
+  @media (max-width: 580px) {         /*For mobile*/
+    
+    .skill-container{
+      background-color: black;
+    }
+  }

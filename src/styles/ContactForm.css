@@ -49,6 +49,9 @@
     .contact-form-container{
         width: 300px;
     }
+    .contact-container{
+      background-color: black;
+    }
    
   }
 @media (min-width:720px) {
