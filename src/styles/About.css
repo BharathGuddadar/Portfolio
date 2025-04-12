@@ -31,6 +31,9 @@
     
 }
 @media (max-width: 720px) {
+    .about-container{
+        background-color: black;
+    }
     .about-p{
         margin: 20px;
         font-size: 15px;

@@ -1,7 +1,6 @@
 .skills {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 100px;
     justify-content: center; /* Center the row of spheres horizontally */
     align-items: center; /* Center the row of spheres vertically */
     height: 100%; /* Full viewport height */
